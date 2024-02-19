@@ -12,6 +12,7 @@
       service:
         name: nginx
         state: started
+        enabled: yes
     
     - name: Install HaProxy
       apt:
@@ -22,4 +23,5 @@
       service:
         name: haproxy
         state: started
+        enabled: yes
   
